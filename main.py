@@ -13,7 +13,7 @@ import yt_dlp
 from gtts import gTTS
 
 from telegram import (
-    Update,
+    Application,
     InputSticker,
     Sticker,
     ParseMode
