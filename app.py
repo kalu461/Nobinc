@@ -33,8 +33,8 @@ TOKENS = [
     "8286703321:AAFDTA2iyHctSsHeSVafypsGywKwjI7x0nU"
 ]
 
-CHAT_ID = 
-OWNER_ID = 8160881443
+CHAT_ID = 5915051224
+OWNER_ID = 5915051224
 SUDO_FILE = "sudo.json"
 STICKER_FILE = "stickers.json"
 VOICE_CLONES_FILE = "voice_clones.json"
@@ -353,11 +353,11 @@ async def exonc_loop(bot, chat_id, base_text):
 # CORE COMMANDS
 # ---------------------------
 async def start_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("🪷  V4 Ultra Multi — Commands 🐼\nUse /help")
+    await update.message.reply_text("NOBI 🪷 V4 Ultra Multi — Commands 🐼\nUse /help")
 
 async def help_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
     help_text = """
-🪷 SNAPPY V4 Ultra Multi — Commands 🐼
+🪷 NOBI V4 Ultra Multi — Commands 🐼
 
 🎀 Name Changers:
 /gcnc <name> - 🎀  
