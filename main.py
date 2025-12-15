@@ -4,14 +4,28 @@ import json
 import os
 import random
 import time
-from datetime import datetime
-from telegram import Update, InputSticker, Sticker
-from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandler, filters
 import logging
+import io
+from datetime import datetime
+
+import requests
 import yt_dlp
 from gtts import gTTS
-import requests
-import io
+
+from telegram import (
+    Update,
+    InputSticker,
+    Sticker,
+    ParseMode
+)
+
+from telegram.ext import (
+    Updater,
+    CommandHandler,
+    MessageHandler,
+    Filters,
+    CallbackContext
+)
 
 # ---------------------------
 # CONFIG
