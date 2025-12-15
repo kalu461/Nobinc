@@ -1,7 +1,4 @@
-python-telegram-bot
-httpx
-httpcore
-certifi
-tornado
-aiohttp
-uvloop
+python-telegram-bot==20.7
+yt-dlp
+gTTS
+requests
