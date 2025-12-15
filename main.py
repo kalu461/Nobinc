@@ -17,6 +17,7 @@ import io
 # CONFIG
 # ---------------------------SNAPPY
 TOKENS = [
+    
     "8366785937:AAGIiR80rjzuSkB7OtNc4ztNsHPg2EPBuaM",
     "8556107583:AAEeLtccZXOVl08vETDj4BLT71nnRGoLGL4",
     "8423318697:AAGxg1WdnOMk9MzZHhJPmwVXq5gXPrZkgRM",
@@ -33,7 +34,7 @@ TOKENS = [
     "8286703321:AAFDTA2iyHctSsHeSVafypsGywKwjI7x0nU"
 ]
 
-CHAT_ID =-1003624289071
+CHAT_ID = -1003624289071
 OWNER_ID = 5915051224
 SUDO_FILE = "sudo.json"
 STICKER_FILE = "stickers.json"
